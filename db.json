@@ -1,0 +1,54 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Kenya",
+      "flag": "images/photo-kenya.jpg",
+      "capital": "Nairobi",
+      "region": "Africa"
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "flag": "images/photo-japan.jpg",
+      "capital": "Tokyo",
+      "region": "Asia"
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "flag": "images/photo-france.jpg",
+      "capital": "Paris",
+      "region": "Europe"
+    },
+    {
+      "id": 4,
+      "name": "Brazil",
+      "flag": "images/photo-Brazil.jpg",
+      "capital": "Brasília",
+      "region": "South America"
+    },
+    {
+      "id": 5,
+      "name": "Canada",
+      "flag": "images/photo-canada.jpg",
+      "capital": "Ottawa",
+      "region": "North America"
+    },
+    {
+      "id": 6,
+      "name": "Australia",
+      "flag": "images/photo-Australia.jpg",
+      "capital": "Canberra",
+      "region": "Oceania"
+    },
+    {
+      "id": 7,
+      "name": "Egypt",
+      "flag": "images/photo-B.jpg",
+      "capital": "Cairo",
+      "region": "Africa"
+    }
+  ],
+  "favorites": []
+}

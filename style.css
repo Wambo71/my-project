@@ -1,0 +1,34 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
+background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    color: chocolate;
+    font-weight: bolder;
+
+}
+
+.container{
+    display: flex;
+    gap: 300px;
+}
+
+#favorite-countries{
+    border-right: 2px;
+
+}
+
+section{
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    height: 80px;
+}
+
+h2{
+    color: black;
+}

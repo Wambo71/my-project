@@ -5,13 +5,16 @@
       "name": "Kenya",
       "flag": "images/photo-kenya.jpg",
       "capital": "Nairobi",
+      "details":" known for having many of the worlds best runners",
       "region": "Africa"
+      
     },
     {
       "id": 2,
       "name": "Japan",
       "flag": "images/photo-japan.jpg",
       "capital": "Tokyo",
+      "details": "one of the most technologically advanced countries",
       "region": "Asia"
     },
     {
@@ -19,6 +22,7 @@
       "name": "France",
       "flag": "images/photo-france.jpg",
       "capital": "Paris",
+      "details": "is the most visited country in the world for it has good sceneries", 
       "region": "Europe"
     },
     {
@@ -26,13 +30,16 @@
       "name": "Brazil",
       "flag": "images/photo-Brazil.jpg",
       "capital": "Brasília",
+      "details": "it is known for its natural wonders",
       "region": "South America"
+
     },
     {
       "id": 5,
       "name": "Canada",
       "flag": "images/photo-canada.jpg",
       "capital": "Ottawa",
+      "details": "it has the longest coastline in the world",
       "region": "North America"
     },
     {
@@ -40,6 +47,7 @@
       "name": "Australia",
       "flag": "images/photo-Australia.jpg",
       "capital": "Canberra",
+      "details": "the only place where kangaroos exist",
       "region": "Oceania"
     },
     {
@@ -47,6 +55,7 @@
       "name": "Egypt",
       "flag": "images/photo-B.jpg",
       "capital": "Cairo",
+      "details": "famous for having many pyramids",
       "region": "Africa"
     }
   ],

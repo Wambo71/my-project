@@ -77,7 +77,9 @@ function renderFavorites (favorites){
    favoritesList.innerHTML = ''
    favorites.forEach(country => {
     const div = document.createElement('div')
-    div.textContent = country.name
+   div.innerHTML = `
+   <img src="${country.flag}" alt="${country.name}"
+   <span>${country.name}</span>`
    
    favoritesList.appendChild(div)
 

@@ -1,46 +1,43 @@
 {
   "countries": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Kenya",
       "flag": "images/photo-kenya.jpg",
       "capital": "Nairobi",
-      "details":" known for having many of the worlds best runners",
+      "details": " known for having many of the worlds best runners",
       "favorite": true,
       "region": "Africa"
-      
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Japan",
       "flag": "images/photo-japan.jpg",
       "capital": "Tokyo",
       "details": "one of the most technologically advanced countries",
       "favorite": true,
       "region": "Asia"
-      
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "France",
       "flag": "images/photo-france.jpg",
       "capital": "Paris",
-      "details": "is the most visited country in the world for it has good sceneries", 
-      "favorite": false,
+      "details": "is the most visited country in the world for it has good sceneries",
+      "favorite": true,
       "region": "Europe"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Brazil",
       "flag": "images/photo-Brazil.jpg",
       "capital": "Brasília",
       "details": "it is known for its natural wonders",
-      "favorite": true,
+      "favorite": false,
       "region": "South America"
-
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Canada",
       "flag": "images/photo-canada.jpg",
       "capital": "Ottawa",
@@ -49,7 +46,7 @@
       "region": "North America"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Australia",
       "flag": "images/photo-Australia.jpg",
       "capital": "Canberra",
@@ -58,8 +55,7 @@
       "region": "Oceania"
     },
     {
-      
-      "id": 7,
+      "id": "7",
       "name": "Egypt",
       "flag": "images/Photo-Egypt.jpg",
       "capital": "Cairo",
@@ -68,5 +64,4 @@
       "region": "Africa"
     }
   ]
-  
 }

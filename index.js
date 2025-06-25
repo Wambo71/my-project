@@ -55,7 +55,8 @@ function renderCountries (countries){
         <img src="${country.flag}" >
         <h3>${country.name}</h3>
         <p>${country.capital}</p>
-         <p>${country.region}</p>`
+         <p>${country.region}</p>
+         <p>${country.details}`
      }
 
 // Toggle favorite status

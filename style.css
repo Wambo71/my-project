@@ -94,3 +94,11 @@ button.hover{
   vertical-align: middle;
   margin-top: 30px;
 }
+h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: dodgerblue;
+}

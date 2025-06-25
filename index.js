@@ -8,7 +8,7 @@ const favoritesList = document.getElementById('favorite-countries');
 const detailsDiv = document.getElementById('country-details')
 //fetch from json server
 async function fetchCountries(){
-    const res = await fetch("http://localhost:3001/countries")
+    const res = await fetch(API_URL)
     const countries = await res.json()
     renderCountries(countries)
 }

@@ -100,11 +100,17 @@ function renderFavorites (favorites){
 });
 
 // 4. Filter by region
-regionFilter.addEventListener('change', async () => {
-  const res = await fetch(API_URL);
-  const data = await res.json();
-  const filtered = regionFilter.value === 'All' ? data : data.filter(c => c.region === regionFilter.value);
-  renderCountries(filtered);
+  regionFilter.addEventListener('change', async () => {
+  const selectedRegion = regionFilter.value;
+
+  const response = await fetch(API_URL);
+  const countries = await response.json();
+
+  const filteredCountries = selectedRegion === 'All'
+    ? countries
+    : countries.filter(country => country.region === selectedRegion);
+
+  renderCountries(filteredCountries);
 });
 
   fetchCountries();

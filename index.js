@@ -69,8 +69,7 @@ function renderCountries (countries){
     body: JSON.stringify(updated)
   });
 
-  fetchCountries();
-  fetchFavorites();
+  
 }
 
      //render favorites
@@ -88,11 +87,16 @@ function renderFavorites (favorites){
    }  
  
    // 3. Search by name
-searchInput.addEventListener('input', async () => {
+  searchInput.addEventListener('input', async () => {
+  const searchText = searchInput.value.toLowerCase()
   const res = await fetch(API_URL);
-  const data = await res.json();
-  const filtered = data.filter(c => c.name.toLowerCase().includes(searchInput.value.toLowerCase()));
-  renderCountries(filtered);
+  const countries = await res.json();
+
+  const matchingCountries = countries.filter(function(country){
+    return country.name .toLowerCase().includes (searchText)
+  }
+)
+  renderCountries(matchingCountries);
 });
 
 // 4. Filter by region

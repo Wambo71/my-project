@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/countries"
+const API_URL = "https://country-server-p.onrender.com/countries"
 
 document.addEventListener("DOMContentLoaded" ,() => {
 const countriesDiv = document.getElementById('country-list');

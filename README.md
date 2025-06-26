@@ -30,6 +30,7 @@ This is a fun and educational web app that allows users to explore countries aro
 .open the index.html file in your browser
 
 
+
  ### project structure
   ***country explorer app**
       ----index.html
@@ -44,6 +45,16 @@ This is a fun and educational web app that allows users to explore countries aro
    ### license 
   
    Copyright (c) 2025 Wambui
+   
+   ### Live link 
+
+   
+   [my project](https://wambo71.github.io/my-project/)
+
+
+
+
+
 
    ### Author
 

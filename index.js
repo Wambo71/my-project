@@ -56,8 +56,8 @@ function renderCountries (countries){
         <h3>${country.name}</h3>
         <p>${country.capital}</p>
          <p>${country.region}</p>
-         <p>${country.details}`
-     }
+         <p>${country.details}</p>`
+     } 
 
 // Toggle favorite status
   async function toggleFavorite(country) {
@@ -67,10 +67,11 @@ function renderCountries (countries){
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(updated)
-  });
+  }); 
 
-  
-}
+    fetchCountries()
+    fetchFavorites()
+ }   
 
      //render favorites
 function renderFavorites (favorites){
@@ -78,12 +79,12 @@ function renderFavorites (favorites){
    favorites.forEach(country => {
     const div = document.createElement('div')
    div.innerHTML = `
-   <img src="${country.flag}" alt="${country.name}"
+  <img src="${country.flag}" alt="${country.name}">  
    <span>${country.name}</span>`
    
    favoritesList.appendChild(div)
 
-  })
+  });
    }  
  
    // 3. Search by name
@@ -92,10 +93,10 @@ function renderFavorites (favorites){
   const res = await fetch(API_URL);
   const countries = await res.json();
 
-  const matchingCountries = countries.filter(function(country){
-    return country.name .toLowerCase().includes (searchText)
-  }
-)
+  const matchingCountries = countries.filter(country =>
+  country.name.toLowerCase().includes(searchText)
+);
+
   renderCountries(matchingCountries);
 });
 
@@ -105,18 +106,23 @@ function renderFavorites (favorites){
 
   const response = await fetch(API_URL);
   const countries = await response.json();
-
-  const filteredCountries = selectedRegion === 'All'
-    ? countries
-    : countries.filter(country => country.region === selectedRegion);
+    
+     let filteredCountries
+    
+    
+  if(selectedRegion === 'All'){
+    filteredCountries = countries
+  }else{
+    filteredCountries = countries.filter(country =>country.region===
+    selectedRegion
+    )
+  } 
 
   renderCountries(filteredCountries);
 });
 
   fetchCountries();
   fetchFavorites();
-
-
 })
 
 

@@ -5,7 +5,7 @@
       "name": "Kenya",
       "flag": "images/photo-kenya.jpg",
       "capital": "Nairobi",
-      "details": " known for having many of the worlds best runners",
+      "details": " known for having many of the worlds best runners.Swahili and English are the official languages.has a population of 55.34 million.current president in office is H.E William Ruto",
       "favorite": true,
       "region": "Africa"
     },
@@ -14,7 +14,7 @@
       "name": "Japan",
       "flag": "images/photo-japan.jpg",
       "capital": "Tokyo",
-      "details": "one of the most technologically advanced countries",
+      "details": "one of the most technologically advanced countries.Japanese its the official language.Has a population of 124.5 million.Receives one of the highest amount of snowfall in the world.",
       "favorite": true,
       "region": "Asia"
     },
@@ -23,7 +23,7 @@
       "name": "France",
       "flag": "images/photo-france.jpg",
       "capital": "Paris",
-      "details": "is the most visited country in the world for it has good sceneries",
+      "details": "is the most visited country in the world for it has good sceneries.has a a population of 68.29 million .France is the largest country in Europe.Its a global center of art,science and philosophy.",
       "favorite": true,
       "region": "Europe"
     },
@@ -32,7 +32,7 @@
       "name": "Brazil",
       "flag": "images/photo-Brazil.jpg",
       "capital": "Brasília",
-      "details": "it is known for its natural wonders",
+      "details": "it is known for its natural wonders.The largest country in South America.Has a population of over 212 million.Portuguese is the official and national language.Famous for its rainforest and lively city life.",
       "favorite": false,
       "region": "South America"
     },
@@ -41,7 +41,7 @@
       "name": "Canada",
       "flag": "images/photo-canada.jpg",
       "capital": "Ottawa",
-      "details": "it has the longest coastline in the world",
+      "details": "it has the longest coastline in the world.Has a population of 40.1 million.English and French are the languages spoken in Canada.Mark Carney is the 24th prime minister.was officially called Dominion Of Canada.",
       "favorite": false,
       "region": "North America"
     },
@@ -50,7 +50,7 @@
       "name": "Australia",
       "flag": "images/photo-Australia.jpg",
       "capital": "Canberra",
-      "details": "the only place where kangaroos exist",
+      "details": "the only place where kangaroos exist.Has a population of 26.66 million.Mandarin is the second most spoken language while English is the widely spoken language.Sydney is the most largest city",
       "favorite": true,
       "region": "Oceania"
     },
@@ -59,7 +59,7 @@
       "name": "Egypt",
       "flag": "images/Photo-Egypt.jpg",
       "capital": "Cairo",
-      "details": "famous for having many pyramids",
+      "details": "famous for having many pyramids.Has a population of 114.5 million.Arabic its the official language.its a lower middle-income country with moderate food security.Abdel Fattah is the current president.",
       "favorite": false,
       "region": "Africa"
     }

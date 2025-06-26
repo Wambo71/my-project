@@ -1,0 +1,20 @@
+{
+  "name": "country-explorer-project",
+  "version": "1.0.0",
+  "description": "This is a fun and educational web app that allows users to explore countries around the world! You can view country details, search by name, filter by region, and mark countries as favorites. It's built using HTML, CSS, JavaScript, and uses JSON Server as a mock API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wambo71/my-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wambo71/my-project/issues"
+  },
+  "homepage": "https://github.com/Wambo71/my-project#readme"
+}
